@@ -8,6 +8,10 @@ export const config: unknown = createConfig({
 		name: "js-none",
 		options: createTargetJSNoneOptions({
 			registry: {
+				"npmjs": {
+					url: "https://registry.npmjs.org",
+					authTokenFilePath: "secrets/npm_auth_token"
+				},
 				"anioSoftware": {
 					url: "https://npm-registry.anio.software",
 					authTokenFilePath: "secrets/anio_npm_auth_token",
@@ -24,6 +28,9 @@ export const config: unknown = createConfig({
 
 			publish: [{
 				registry: "anioSoftware"
+			}, {
+				registry: "default",
+				publishWithProvenance: true
 			}]
 		})
 	}
