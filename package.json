@@ -1,6 +1,6 @@
 {
   "name": "@anio-software/pkg.is",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Anio Software <info@anio.software>",
   "description": "Package that tests for stuff.",
   "license": "MIT",
