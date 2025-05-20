@@ -29,7 +29,7 @@ export const config: unknown = createConfig({
 			publish: [{
 				registry: "anioSoftware"
 			}, {
-				registry: "default",
+				registry: "npmjs",
 				publishWithProvenance: true
 			}]
 		})
