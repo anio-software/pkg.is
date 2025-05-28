@@ -9,5 +9,5 @@ export function isFunction(value: any): value is Function {
 		return true
 	}
 
-	return false
+	return typeof value === "function"
 }
