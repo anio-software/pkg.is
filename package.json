@@ -1,5 +1,6 @@
 {
   "name": "@anio-software/pkg.is",
+  "type": "module",
   "version": "0.0.2",
   "author": "Anio Software <info@anio.software>",
   "description": "Package that tests for stuff.",
@@ -8,7 +9,6 @@
     "type": "git",
     "url": "git+https://github.com/anio-software/pkg.is.git"
   },
-  "type": "package",
   "devDependencies": {
     "@anio-software/enkore": "^0.0.70",
     "@anio-software/enkore.core": "^0.10.0",
