@@ -1,7 +1,7 @@
 {
   "name": "@anio-software/pkg.is",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Anio Software <info@anio.software>",
   "description": "Package that tests for stuff.",
   "license": "MIT",
