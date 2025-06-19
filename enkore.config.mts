@@ -1,12 +1,12 @@
-import {
-	createConfig,
-	createTargetJSNoneOptions
-} from "@anio-software/enkore/spec/factory"
+import {defineConfig} from "@anio-software/enkore"
+import {defineTargetJSConfig} from "@anio-software/enkore.target-js"
 
-export const config: unknown = createConfig({
+export const config: unknown = defineConfig({
 	target: {
-		name: "js-none",
-		options: createTargetJSNoneOptions({
+		name: "js",
+		options: defineTargetJSConfig({
+			environment: [],
+
 			registry: {
 				"npmjs": {
 					url: "https://registry.npmjs.org",
