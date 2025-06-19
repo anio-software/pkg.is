@@ -1,4 +1,4 @@
-import {valueToStringType} from "#~src/valueToStringType.mts"
+import {valueToStringType} from "#~src/valueToStringType.ts"
 
 export function isFunction(value: any): value is Function {
 	const type = valueToStringType(value)
