@@ -1,5 +1,5 @@
 import {valueToStringType} from "#~src/valueToStringType.ts"
 
-export function isArray(value: any): value is Array<unknown> {
+export function isArray<T = unknown>(value: any): value is Array<T> {
 	return valueToStringType(value) === "[object array]"
 }
