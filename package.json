@@ -1,14 +1,14 @@
 {
-  "name": "@anio-software/pkg.is",
   "type": "module",
+  "name": "@anio-software/pkg.is",
   "version": "0.0.4",
-  "author": "Anio Software <info@anio.software>",
   "description": "Package that tests for stuff.",
-  "license": "MIT",
+  "author": "Anio Software <info@anio.software>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anio-software/pkg.is.git"
   },
+  "license": "MIT",
   "devDependencies": {
     "@anio-software/enkore": "^0.0.215",
     "@anio-software/enkore.core": "^0.13.1",
