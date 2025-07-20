@@ -10,7 +10,7 @@
     "url": "git+https://github.com/anio-software/pkg.is.git"
   },
   "devDependencies": {
-    "@anio-software/enkore": "^0.0.70",
-    "@anio-software/enkore.core": "^0.10.0"
+    "@anio-software/enkore": "^0.0.215",
+    "@anio-software/enkore.core": "^0.13.1"
   }
 }
