@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "@anio-software/pkg.is",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Package that tests for stuff.",
   "author": "Anio Software <info@anio.software>",
   "repository": {
