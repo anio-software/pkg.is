@@ -6,6 +6,7 @@ export function isNodeJSErrnoException(value: any): value is NodeJSErrnoExceptio
 		return false
 	}
 
+	// todo: could be more strict
 	return (
 		"errno" in value    ||
 		"code" in value     ||
